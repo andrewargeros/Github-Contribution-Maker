@@ -22,8 +22,8 @@ pyautogui.typewrite("""cd C:/RScripts/contribution-dump
 time.sleep(1)
 pyautogui.typewrite('git init')
 
-for i in range(10):
-   date = random_date("2019-11-17", "2019-12-31", random.random())
+for i in range(30):
+   date = random_date("2021-06-19", "2021-06-25", random.random())
 
    message = f"""git commit --allow-empty --date "{date}" -m "{date}"
    git push
