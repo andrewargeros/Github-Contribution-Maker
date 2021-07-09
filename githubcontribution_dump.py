@@ -23,7 +23,7 @@ time.sleep(1)
 pyautogui.typewrite('git init')
 
 for i in range(30):
-   date = random_date("2021-06-19", "2021-06-25", random.random())
+   date = random_date("2021-06-26", "2021-07-07", random.random())
 
    message = f"""git commit --allow-empty --date "{date}" -m "{date}"
    git push
